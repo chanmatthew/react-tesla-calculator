@@ -1,0 +1,94 @@
+.tesla-counter {
+  float: left;
+  width: 230px;
+}
+
+.tesla-counter__title {
+  letter-spacing: 2px;
+}
+
+.tesla-counter__container {
+  margin: 10px 0 0 ;
+  padding-right: 40px;
+}
+
+.tesla-counter__container input[type=number] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.tesla-counter__number {
+  font-family: 'roboto';
+  font-size:1.5rem;
+  line-height: 1;
+  position: relative;
+}
+
+.tesla-counter__number span {
+  position: absolute;
+  top: 0;
+  left: 2em;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.tesla-counter__item {
+  position: relative;
+  width: 100%;
+  height: 4em;
+  border: 1px solid #ccc;
+  padding: 0.5em 1em 0.5em 2em;
+  margin: 0 0.5em 0 0;
+  background-color: #f7f7f7;
+  background-position: 25% 0.5em;
+  background-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tesla-counter__item:focus {
+  background-color: #f2f2f2;
+  outline: none;
+}
+
+/* .tesla-counter__controls {
+  position: absolute;
+  right: 0.625em;
+  top: 0.5em;
+} */
+
+.tesla-counter__controls button {
+  outline: 0;
+  width: 2em;
+  color: #008dff;
+  display: block;
+  padding: 0.75em 0;
+  border: 0;
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.tesla-counter__controls button[disabled] {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.tesla-counter__controls button:first-child {
+  border-bottom: 1px solid #fff;
+  background-image: url(../../assets/counter/up.svg)
+}
+
+.tesla-counter__controls button:last-child {
+  border-top: 1px solid #ccc;
+  background-image: url(../../assets/counter/down.svg)
+}

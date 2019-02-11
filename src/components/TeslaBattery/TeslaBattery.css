@@ -1,0 +1,26 @@
+.tesla-battery {
+  width: 70em;
+  margin: 0 auto;
+}
+
+.tesla-battery h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2.25rem;
+  text-align: center;
+  letter-spacing: 0.0833em;
+}
+
+.tesla-climate-container {
+  float: left;
+  width: 420px;
+  padding: 0 40px;
+  margin: 0 40px 0 0;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.tesla-controls {
+  display: block;
+  width: 100%;
+}
