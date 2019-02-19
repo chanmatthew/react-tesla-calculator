@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-tesla-calculator/precache-manifest.e5c4514bd4aebd23710ec114f6f3bc67.js"
+  "/react-tesla-calculator/precache-manifest.9184dd4b517cca35ea0dcdf11cf4c106.js"
 );
 
 workbox.clientsClaim();
